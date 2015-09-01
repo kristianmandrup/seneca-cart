@@ -159,8 +159,9 @@ try {
     cart:out.cart.id,
     buyer: {name:'Alice'}
   });
-} catch (err) {
   console.log('out',out)
   console.log(out.cart.status) // => 'closed'  
+} catch (err) {
+  console.log('err',err)
 }
 ```
